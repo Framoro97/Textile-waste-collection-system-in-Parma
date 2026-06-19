@@ -82,7 +82,7 @@ gen_waste = waste_gen(0.5, 3, 4) # kg generati ogni mese, distrib triangolare
 '''
 #distribuzione basata su una logaritmica per simulare stagionalità
 gen_waste=waste_log_gen() #sostiuisco la funzione di generazione
-tipo_conf = "non_positiva" # positiva oppure non_positiva
+tipo_conf = "positiva" # positiva oppure non_positiva
 
 
 if tipo_conf == "positiva":
